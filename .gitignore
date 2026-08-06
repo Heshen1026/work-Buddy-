@@ -61,6 +61,10 @@ tencent-docs-engine.port
 # === 项目级记忆（非跨项目） ===
 memory/
 
+# === 技能目录（文件数量过大，导致 git 操作瓶颈） ===
+# Skills 可以通过重新安装恢复，核心配置已在版本控制中
+skills/
+
 # === 密钥文件 ===
 .env
 *.env
