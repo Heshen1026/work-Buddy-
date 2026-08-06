@@ -1,0 +1,66 @@
+# === Python/NPM 运行时（体积巨大，不纳入版本控制） ===
+binaries/
+
+# === 数据库文件 ===
+*.db
+*.db-shm
+*.db-wal
+
+# === 插件缓存（含大量二进制） ===
+plugins/
+vendor/
+
+# === 连接器缓存 ===
+connectors/
+connectors-marketplace/
+
+# === 日志 & 会话 & 追踪 ===
+logs/
+sessions/
+session_fragment_repair_done*
+traces/
+
+# === 临时 & 缓存 ===
+clipboard-images/
+blobs/
+app/
+file-history/
+projects/
+tasks/
+pending-telemetry/
+
+# === Python 缓存 ===
+__pycache__/
+*.pyc
+*.pyo
+
+# === Node 缓存 ===
+node_modules/
+
+# === 本地状态文件 ===
+*.port
+local_storage/
+last-launch.json
+user-state.json
+models.json
+settings.json
+workspace-state.json
+usage-log.json
+mcp-approvals.json
+workspace/
+desktop_conversation_migrated
+ioa-im-override.json
+edge-sync-mapping.db*
+plugin-marketplace-state-new
+plans/
+shell-snapshots/
+artifact-index/
+audit-log/
+tencent-docs-engine.port
+
+# === 项目级记忆（非跨项目） ===
+memory/
+
+# === 密钥文件 ===
+.env
+*.env
